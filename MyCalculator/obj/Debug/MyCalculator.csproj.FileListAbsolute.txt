@@ -1,0 +1,13 @@
+c:\users\siddharth\documents\visual studio 2013\Projects\MyCalculator\MyCalculator\bin\Debug\MyCalculator.exe.config
+c:\users\siddharth\documents\visual studio 2013\Projects\MyCalculator\MyCalculator\bin\Debug\MyCalculator.exe
+c:\users\siddharth\documents\visual studio 2013\Projects\MyCalculator\MyCalculator\bin\Debug\MyCalculator.pdb
+c:\users\siddharth\documents\visual studio 2013\Projects\MyCalculator\MyCalculator\obj\Debug\MyCalculator.csprojResolveAssemblyReference.cache
+c:\users\siddharth\documents\visual studio 2013\Projects\MyCalculator\MyCalculator\obj\Debug\MainWindow.baml
+c:\users\siddharth\documents\visual studio 2013\Projects\MyCalculator\MyCalculator\obj\Debug\MainWindow.g.cs
+c:\users\siddharth\documents\visual studio 2013\Projects\MyCalculator\MyCalculator\obj\Debug\App.g.cs
+c:\users\siddharth\documents\visual studio 2013\Projects\MyCalculator\MyCalculator\obj\Debug\MyCalculator_MarkupCompile.cache
+c:\users\siddharth\documents\visual studio 2013\Projects\MyCalculator\MyCalculator\obj\Debug\MyCalculator.g.resources
+c:\users\siddharth\documents\visual studio 2013\Projects\MyCalculator\MyCalculator\obj\Debug\MyCalculator.Properties.Resources.resources
+c:\users\siddharth\documents\visual studio 2013\Projects\MyCalculator\MyCalculator\obj\Debug\MyCalculator.csproj.GenerateResource.Cache
+c:\users\siddharth\documents\visual studio 2013\Projects\MyCalculator\MyCalculator\obj\Debug\MyCalculator.exe
+c:\users\siddharth\documents\visual studio 2013\Projects\MyCalculator\MyCalculator\obj\Debug\MyCalculator.pdb
