@@ -1,7 +1,7 @@
 # Calculator
 Simple calculator as made in the C# workshop
 
-todo for v 1.0.0.2
+todo for v 1.0.0.2 :
 -code in basic functionality
 
 changelog : v 1.0.0.1
@@ -9,4 +9,4 @@ changelog : v 1.0.0.1
 - Added opperation butons (x, /)
 - Added clear button
 - Added equal button
-- rezized (more compact)
+- resized (more compact)
