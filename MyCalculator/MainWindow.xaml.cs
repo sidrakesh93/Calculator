@@ -21,16 +21,34 @@ namespace MyCalculator
     /// </summary>
     public partial class MainWindow : Window
     {
-        
-        
+
+
         public void Main()
         {
             InitializeComponent();
         }
 
-        
-    
+        private void button_Click(object sender, RoutedEventArgs e)
+        {
+            //code here
+        }
 
-        
+        private void opperation_button_Click(object sender, RoutedEventArgs e)
+        {
+            //code here
+        }
+
+        private void equal_button_Click(object sender, RoutedEventArgs e)
+        {
+            //code here
+        }
+
+        private void clear_button_Click(object sender, RoutedEventArgs e)
+        {
+            //code here
+        }
+
+
     }
+}
 
