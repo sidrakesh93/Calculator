@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Threading;
 
 namespace MyCalculator
 {
@@ -20,60 +21,16 @@ namespace MyCalculator
     /// </summary>
     public partial class MainWindow : Window
     {
-        double result = 0;
-        string opperation = "";
-
-        public MainWindow()
+        
+        
+        public void Main()
         {
             InitializeComponent();
         }
 
-        private void button_Click(object sender, RoutedEventArgs e)
-        {
-            Button button = (Button)sender;
-            resultTextBox.Text += button.Content;
-        }
+        
+    
 
-        private void opperation_button_Click(object sender, RoutedEventArgs e)
-        {
-            // code functionality here
-            Button button = (Button)sender;
-            opperation = button.Content.ToString(); //maybe a more efficient way to do this?
-            result = Double.Parse(resultTextBox.Text);
-            sumTextBox.Text = result + " " + opperation;
-            
-        }
-
-        private void equal_button_Click(object sender, RoutedEventArgs e)
-        {
-            
-            switch (opperation)
-            {
-                case "+":
-                    resultTextBox.Text = (result + Double.Parse(resultTextBox.Text)).ToString();
-                    break;
-                case "-":
-                    resultTextBox.Text = (result - Double.Parse(resultTextBox.Text)).ToString();
-                    break;
-                case "x":
-                    resultTextBox.Text = (result * Double.Parse(resultTextBox.Text)).ToString();
-                    break;
-                case "/":
-                    resultTextBox.Text = (result / Double.Parse(resultTextBox.Text)).ToString();
-                    break;
-                default:
-                    break;
-            }
-            
-
-        }
-
-        private void clear_button_Click(object sender, RoutedEventArgs e)
-        {
-            resultTextBox.Clear();
-            resultTextBox.Text = "0";
-            sumTextBox.Clear();
-            sumTextBox.Text = " ";
-        }
+        
     }
-}
+
