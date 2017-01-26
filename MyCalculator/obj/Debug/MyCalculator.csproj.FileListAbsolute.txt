@@ -11,3 +11,6 @@ c:\users\siddharth\documents\visual studio 2013\Projects\MyCalculator\MyCalculat
 c:\users\siddharth\documents\visual studio 2013\Projects\MyCalculator\MyCalculator\obj\Debug\MyCalculator.csproj.GenerateResource.Cache
 c:\users\siddharth\documents\visual studio 2013\Projects\MyCalculator\MyCalculator\obj\Debug\MyCalculator.exe
 c:\users\siddharth\documents\visual studio 2013\Projects\MyCalculator\MyCalculator\obj\Debug\MyCalculator.pdb
+C:\Users\Allan Cook\Documents\GitHub\Calculator\MyCalculator\bin\Debug\MyCalculator.exe.config
+C:\Users\Allan Cook\Documents\GitHub\Calculator\MyCalculator\obj\Debug\MyCalculator.exe
+C:\Users\Allan Cook\Documents\GitHub\Calculator\MyCalculator\obj\Debug\MyCalculator.pdb
