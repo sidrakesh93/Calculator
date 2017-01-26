@@ -14,3 +14,13 @@ c:\users\siddharth\documents\visual studio 2013\Projects\MyCalculator\MyCalculat
 C:\Users\Allan Cook\Documents\GitHub\Calculator\MyCalculator\bin\Debug\MyCalculator.exe.config
 C:\Users\Allan Cook\Documents\GitHub\Calculator\MyCalculator\obj\Debug\MyCalculator.exe
 C:\Users\Allan Cook\Documents\GitHub\Calculator\MyCalculator\obj\Debug\MyCalculator.pdb
+C:\Users\Allan Cook\Documents\GitHub\Calculator\MyCalculator\bin\Debug\MyCalculator.exe
+C:\Users\Allan Cook\Documents\GitHub\Calculator\MyCalculator\bin\Debug\MyCalculator.pdb
+C:\Users\Allan Cook\Documents\GitHub\Calculator\MyCalculator\obj\Debug\MyCalculator.csprojResolveAssemblyReference.cache
+C:\Users\Allan Cook\Documents\GitHub\Calculator\MyCalculator\obj\Debug\MainWindow.baml
+C:\Users\Allan Cook\Documents\GitHub\Calculator\MyCalculator\obj\Debug\MainWindow.g.cs
+C:\Users\Allan Cook\Documents\GitHub\Calculator\MyCalculator\obj\Debug\App.g.cs
+C:\Users\Allan Cook\Documents\GitHub\Calculator\MyCalculator\obj\Debug\MyCalculator_MarkupCompile.cache
+C:\Users\Allan Cook\Documents\GitHub\Calculator\MyCalculator\obj\Debug\MyCalculator.g.resources
+C:\Users\Allan Cook\Documents\GitHub\Calculator\MyCalculator\obj\Debug\MyCalculator.Properties.Resources.resources
+C:\Users\Allan Cook\Documents\GitHub\Calculator\MyCalculator\obj\Debug\MyCalculator.csproj.GenerateResource.Cache

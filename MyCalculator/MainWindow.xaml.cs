@@ -28,13 +28,13 @@ namespace MyCalculator
             InitializeComponent();
         }
 
-        private void num_button_Click(object sender, RoutedEventArgs e)
+        private void button_Click(object sender, RoutedEventArgs e)
         {
             Button b = (Button)sender;
             curr_box.Text += b.Content;
         }
 
-        private void op_button_Click(object sender, RoutedEventArgs e)
+        private void opperation_button_Click(object sender, RoutedEventArgs e)
         {
             Button b = (Button)sender;
 
