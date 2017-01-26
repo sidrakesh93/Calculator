@@ -21,7 +21,7 @@ namespace MyCalculator
     public partial class MainWindow : Window
     {
         private int result = 0;
-        private int op = int.MinValue;
+       // private int op = int.MinValue;
 
         public MainWindow()
         {
@@ -31,45 +31,29 @@ namespace MyCalculator
         private void button_Click(object sender, RoutedEventArgs e)
         {
             Button b = (Button)sender;
-            curr_box.Text += b.Content;
+            resultTextBox.Text += b.Content;
         }
 
         private void opperation_button_Click(object sender, RoutedEventArgs e)
         {
             Button b = (Button)sender;
+            resultTextBox.Text = resultTextBox.Text + b.Content;
 
-            if (op != int.MinValue)
-            {
-                if (curr_box.Text != "")
-                {
-                    if (op == 1)
-                    {
-                        result += Int32.Parse(curr_box.Text);
-                    }
-                    else if (op == 2)
-                    {
-                        result -= Int32.Parse(curr_box.Text);
-                    } 
-                } 
-            }
-            else
-            {
-                result = Int32.Parse(curr_box.Text);
-            }
+            
+        }
 
-            result_box.Text = "" + result;
-            curr_box.Text = "";
+        private void equal_button_Click(object sender, RoutedEventArgs e)
+        {
+            // todo :
+            // 1) switch for the operation controlls
+        }
 
-            string button_type = b.Content.ToString();
-
-            if (button_type == "+")
-            {
-                op = 1;
-            }
-            else if (button_type == "-")
-            {
-                op = 2;
-            }
+        private void clear_button_Click(object sender, RoutedEventArgs e)
+        {
+            resultTextBox.Clear();
+            resultTextBox.Text = "0";
+            sumTextBox.Clear();
+            sumTextBox.Text = " ";
         }
     }
 }
