@@ -20,8 +20,8 @@ namespace MyCalculator
     /// </summary>
     public partial class MainWindow : Window
     {
-        private int result = 0;
-       // private int op = int.MinValue;
+        double result = 0;
+        string opperation = "";
 
         public MainWindow()
         {
@@ -30,22 +30,42 @@ namespace MyCalculator
 
         private void button_Click(object sender, RoutedEventArgs e)
         {
-            Button b = (Button)sender;
-            resultTextBox.Text += b.Content;
+            Button button = (Button)sender;
+            resultTextBox.Text += button.Content;
         }
 
         private void opperation_button_Click(object sender, RoutedEventArgs e)
         {
-            Button b = (Button)sender;
-            resultTextBox.Text = resultTextBox.Text + b.Content;
-
+            // code functionality here
+            Button button = (Button)sender;
+            opperation = button.Content.ToString(); //maybe a more efficient way to do this?
+            result = Double.Parse(resultTextBox.Text);
+            sumTextBox.Text = result + " " + opperation;
             
         }
 
         private void equal_button_Click(object sender, RoutedEventArgs e)
         {
-            // todo :
-            // 1) switch for the operation controlls
+            
+            switch (opperation)
+            {
+                case "+":
+                    resultTextBox.Text = (result + Double.Parse(resultTextBox.Text)).ToString();
+                    break;
+                case "-":
+                    resultTextBox.Text = (result - Double.Parse(resultTextBox.Text)).ToString();
+                    break;
+                case "x":
+                    resultTextBox.Text = (result * Double.Parse(resultTextBox.Text)).ToString();
+                    break;
+                case "/":
+                    resultTextBox.Text = (result / Double.Parse(resultTextBox.Text)).ToString();
+                    break;
+                default:
+                    break;
+            }
+            
+
         }
 
         private void clear_button_Click(object sender, RoutedEventArgs e)
