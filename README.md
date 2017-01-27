@@ -3,9 +3,6 @@
 ###### Simple calculator as made in the C# workshop
 ###### by  sidrakesh93
 ***
-
-changes by CookAll
-
 changelog : v 1.0.0.2 
 - coded functionality for all buttons
 - change text box layouts
@@ -17,3 +14,5 @@ changelog : v 1.0.0.1
 - Added clear button
 - Added equal button
 - resized (compact)
+
+###### changes by CookAll
