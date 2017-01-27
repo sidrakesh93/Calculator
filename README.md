@@ -11,4 +11,4 @@ changelog : v 1.0.0.1
 - Added opperation butons (x, /)
 - Added clear button
 - Added equal button
-- resized (more compact)
+- resized (compact)
