@@ -1,5 +1,10 @@
 # Calculator
-Simple calculator as made in the C# workshop
+***
+###### Simple calculator as made in the C# workshop
+###### by  sidrakesh93
+***
+
+changes by CookAll
 
 changelog : v 1.0.0.2 
 - coded functionality for all buttons
