@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Threading;
 
 namespace MyCalculator
 {
@@ -20,56 +21,97 @@ namespace MyCalculator
     /// </summary>
     public partial class MainWindow : Window
     {
-        private int result = 0;
-        private int op = int.MinValue;
+        // Global Variables
+        double result = 0;
+        string operation = "";
+        bool isOperation = false;
 
-        public MainWindow()
+        public void MainwWindow()
         {
             InitializeComponent();
         }
 
-        private void num_button_Click(object sender, RoutedEventArgs e)
+        private void button_Click(object sender, RoutedEventArgs e)
         {
-            Button b = (Button)sender;
-            curr_box.Text += b.Content;
-        }
-
-        private void op_button_Click(object sender, RoutedEventArgs e)
-        {
-            Button b = (Button)sender;
-
-            if (op != int.MinValue)
+            // Actions taken for the numeric button press events
+            Button button = (Button)sender;
+            if ((resultTextBox.Text == "0") || (isOperation))
             {
-                if (curr_box.Text != "")
+                resultTextBox.Clear();
+            }
+
+            if (button.Content.ToString() == ".")
+            {
+                if (!resultTextBox.Text.Contains("."))
                 {
-                    if (op == 1)
-                    {
-                        result += Int32.Parse(curr_box.Text);
-                    }
-                    else if (op == 2)
-                    {
-                        result -= Int32.Parse(curr_box.Text);
-                    } 
-                } 
+                    resultTextBox.Text = resultTextBox.Text + button.Content;
+                }
             }
             else
             {
-                result = Int32.Parse(curr_box.Text);
+                resultTextBox.Text = resultTextBox.Text + button.Content;
             }
 
-            result_box.Text = "" + result;
-            curr_box.Text = "";
+            isOperation = false;
+            
+            
 
-            string button_type = b.Content.ToString();
+        }
 
-            if (button_type == "+")
+        private void operation_button_Click(object sender, RoutedEventArgs e)
+        {
+            // Actions taken for the operation button press events
+            Button button = (Button)sender;
+            operation = (button.Content).ToString();    // easier way to do this??
+            result = Double.Parse(resultTextBox.Text);
+            sumTextBox.Text = result + " " + operation;
+            isOperation = true;
+        }
+
+        private void equal_button_Click(object sender, RoutedEventArgs e)
+        {
+            //Actions taken for the equal button press events
+
+            // Switch statement
+            switch(operation)
             {
-                op = 1;
+                case "+":
+                    resultTextBox.Text = (result + Double.Parse(resultTextBox.Text)).ToString();
+                    break;
+                case "-":
+                    resultTextBox.Text = (result - Double.Parse(resultTextBox.Text)).ToString();
+                    break;
+                case "x":
+                    resultTextBox.Text = (result * Double.Parse(resultTextBox.Text)).ToString();
+                    break;
+                case "/":
+                    resultTextBox.Text = (result / Double.Parse(resultTextBox.Text)).ToString();
+                    break;
+                default:
+                    break;
+
+
             }
-            else if (button_type == "-")
-            {
-                op = 2;
-            }
+        }
+
+        private void clear_button_Click(object sender, RoutedEventArgs e)
+        {
+            // Actions taken if the clear button is clicked
+            resultTextBox.Clear();
+            resultTextBox.Text = "0";
+            sumTextBox.Clear();
+            sumTextBox.Text = "";
+        }
+
+        private void resultTextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void sumTextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
         }
     }
 }
+

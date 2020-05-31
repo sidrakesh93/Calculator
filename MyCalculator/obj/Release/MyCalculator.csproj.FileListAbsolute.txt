@@ -1,0 +1,12 @@
+C:\Users\Allan Cook\Documents\GitHub\Calculator\MyCalculator\bin\Release\MyCalculator.exe.config
+C:\Users\Allan Cook\Documents\GitHub\Calculator\MyCalculator\bin\Release\MyCalculator.exe
+C:\Users\Allan Cook\Documents\GitHub\Calculator\MyCalculator\bin\Release\MyCalculator.pdb
+C:\Users\Allan Cook\Documents\GitHub\Calculator\MyCalculator\obj\Release\MainWindow.baml
+C:\Users\Allan Cook\Documents\GitHub\Calculator\MyCalculator\obj\Release\MainWindow.g.cs
+C:\Users\Allan Cook\Documents\GitHub\Calculator\MyCalculator\obj\Release\App.g.cs
+C:\Users\Allan Cook\Documents\GitHub\Calculator\MyCalculator\obj\Release\MyCalculator_MarkupCompile.cache
+C:\Users\Allan Cook\Documents\GitHub\Calculator\MyCalculator\obj\Release\MyCalculator.g.resources
+C:\Users\Allan Cook\Documents\GitHub\Calculator\MyCalculator\obj\Release\MyCalculator.Properties.Resources.resources
+C:\Users\Allan Cook\Documents\GitHub\Calculator\MyCalculator\obj\Release\MyCalculator.csproj.GenerateResource.Cache
+C:\Users\Allan Cook\Documents\GitHub\Calculator\MyCalculator\obj\Release\MyCalculator.exe
+C:\Users\Allan Cook\Documents\GitHub\Calculator\MyCalculator\obj\Release\MyCalculator.pdb
